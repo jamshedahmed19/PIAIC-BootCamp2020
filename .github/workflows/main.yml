@@ -24,4 +24,4 @@ jobs:
     - name: Install NodeJS
       run: actions/setup-node@v2-beta
     - name: Run Surge
-      run: surge ./PIAIC-Bootcamp2020.surge.sh --token ${{secret.SURGE_TOKEN}}
+      run: surge ./PIAIC-Bootcamp2020.surge.sh --token ${{secrets.SURGE_TOKEN}}
